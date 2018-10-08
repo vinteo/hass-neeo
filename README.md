@@ -16,4 +16,4 @@ NEEO custom component for Home Assistant
     ```
     - Replace `<host>` with the IP address or hostname of your NEEO brain.
 
-3. Restart home assistant
+3. Restart Home Assistant
