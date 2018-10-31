@@ -26,7 +26,7 @@ def setup(hass, config):
     DOMAIN: neeo,
   }
 
-  load_platform(hass, 'switch', DOMAIN)
+  load_platform(hass, 'switch', DOMAIN, {}, config)
 
   return True
 
