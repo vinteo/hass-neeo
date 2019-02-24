@@ -8,7 +8,7 @@ NEEO custom component for Home Assistant
 
 ### Installation
 
-1. Copy all files into `<config_dir>/custom_components`
+1. Copy the `neeo` folder into `<config_dir>/custom_components`
 2. Add the following into your `configuration.yaml`
     ```yaml
     neeo:
