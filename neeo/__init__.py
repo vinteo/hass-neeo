@@ -8,6 +8,8 @@ from homeassistant.helpers.discovery import load_platform
 
 DOMAIN = 'neeo'
 
+VERSION = '0.1.0'
+
 CONF_RECIPES = 'recipes'
 
 _LOGGER = logging.getLogger(__name__)
