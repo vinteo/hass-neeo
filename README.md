@@ -18,15 +18,6 @@ NEEO custom component for Home Assistant
 
 3. Restart Home Assistant
 
-## Support for Custom Updater
+## Support for HACS
 
-You can use [Custom Updater](https://github.com/custom-components/custom_updater) to track versions of this component. Once you have installed it, add the following to your configuration.
-
-```yaml
-custom_updater:
-  track:
-    - components
-  component_urls:
-    - https://raw.githubusercontent.com/vinteo/hass-neeo/master/custom_components.json
-
-```
+This custom component can be tracked with the help of [HACS](https://github.com/custom-components/hacs).

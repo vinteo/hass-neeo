@@ -1,0 +1,8 @@
+{
+        "domain": "neeo",
+        "name": "NEEO integration for Home Assistant",
+        "documentation": "https://github.com/vinteo/hass-neeo",
+        "requirements": [],
+        "dependencies": [],
+        "codeowners": ["@vinteo"]
+}
