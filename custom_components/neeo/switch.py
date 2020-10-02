@@ -1,5 +1,5 @@
 from custom_components.neeo import DOMAIN
-from homeassistant.components.switch import SwitchDevice
+from homeassistant.components.switch import SwitchEntity
 from urllib.parse import unquote
 
 def setup_platform(hass, config, add_devices, discovery_info=None):
@@ -12,7 +12,7 @@ def setup_platform(hass, config, add_devices, discovery_info=None):
   add_devices(switches, True)
 
 
-class RecipeSwitch(SwitchDevice):
+class RecipeSwitch(SwitchEntity):
 
   def __init__(self, recipe):
     self._recipe = recipe
