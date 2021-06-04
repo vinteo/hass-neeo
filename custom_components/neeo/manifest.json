@@ -1,8 +1,10 @@
 {
-        "domain": "neeo",
-        "name": "NEEO integration for Home Assistant",
-        "documentation": "https://github.com/vinteo/hass-neeo",
-        "requirements": [],
-        "dependencies": [],
-        "codeowners": ["@vinteo"]
+  "domain": "neeo",
+  "name": "NEEO integration for Home Assistant",
+  "version": "0.1.2",
+  "documentation": "https://github.com/vinteo/hass-neeo",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@vinteo"],
+  "iot_class": "local_polling"
 }
